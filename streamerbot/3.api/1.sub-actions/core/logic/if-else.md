@@ -52,7 +52,7 @@ parameters:
       This can contain other `%variables%`{lang=cs}
 
       ::warning
-      You cannot use `~globalVariables~`{lang=cs} directly. Use the [Global Get](/api/sub-actions/core/global/global-get) sub-action to first load it into a local argument.
+      You cannot use `~globalVariables~`{lang=cs} directly. Use the [Global Get](/api/sub-actions/core/globals/global-get) sub-action to first load it into a local argument.
       ::
   - name: Do Action
     type: Select
